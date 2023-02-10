@@ -1,60 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ImageTask</title>
     <style>
-        .container{
-            border: 2px solid #444;
-            padding: 20px;
-            border-radius: 20px;
-            width: 80vw;
-            margin: auto;
-            margin-bottom: 20px;
-        }
-        .grid{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            grid-gap: 10px;
-        }
-        .container h1{
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .grid div{
-            width: 450px;
-            height: 100vh;
-        }
-        .grid img{
-            width: 100%;
-            height: 33%;
-            border-radius: 10px;
-        }
+      .container {
+        border: 2px solid #444;
+        padding: 20px;
+        border-radius: 20px;
+        width: 80vw;
+        margin: auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+      }
+      .container h1 {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .grid div {
+        width: 450px;
+        height: 100vh;
+      }
+      .grid img {
+        width: 100%;
+        height: 33%;
+        border-radius: 10px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Image Gallery</h1>
-    <div class="grid">
+      <h1>Image Gallery</h1>
+      <div class="grid">
         <div>
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/008/311/935/small/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg">
-            <img src="https://assets.justinmind.com/wp-content/uploads/2020/02/website-background-design-guide-768x492.png">
-            <img src="https://media.istockphoto.com/id/1251629816/photo/the-perfect-setting-to-complete-work.jpg?b=1&s=170667a&w=0&k=20&c=e8mSv3z6PhT18EUmzgtdMCbQecYzhHoqu_ts8tFdN6c=">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/008/311/935/small/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg"
+          />
+          <img
+            src="https://assets.justinmind.com/wp-content/uploads/2020/02/website-background-design-guide-768x492.png"
+          />
+          <img
+            src="https://media.istockphoto.com/id/1251629816/photo/the-perfect-setting-to-complete-work.jpg?b=1&s=170667a&w=0&k=20&c=e8mSv3z6PhT18EUmzgtdMCbQecYzhHoqu_ts8tFdN6c="
+          />
         </div>
         <div>
-            <img src="https://i.pinimg.com/originals/19/9f/d2/199fd29184c6cff24e3445f849af463e.gif">
-            <img src="https://e0.pxfuel.com/wallpapers/779/924/desktop-wallpaper-colorful-personal-computer-studio-10-active-thumbnail.jpg">
-            <img src="https://cutewallpaper.org/cdn-cgi/mirage/2af0adefb1b7ebf6af3b94bf8b86378693ec8b55d34af727ac0cbb58dfd044f5/1280/23/php-wallpaper-hd/1623026890.jpg">
+          <img
+            src="https://i.pinimg.com/originals/19/9f/d2/199fd29184c6cff24e3445f849af463e.gif"
+          />
+          <img
+            src="https://e0.pxfuel.com/wallpapers/779/924/desktop-wallpaper-colorful-personal-computer-studio-10-active-thumbnail.jpg"
+          />
+          <img
+            src="https://cutewallpaper.org/cdn-cgi/mirage/2af0adefb1b7ebf6af3b94bf8b86378693ec8b55d34af727ac0cbb58dfd044f5/1280/23/php-wallpaper-hd/1623026890.jpg"
+          />
         </div>
         <div>
-            <img src="https://i.pinimg.com/originals/19/9f/d2/199fd29184c6cff24e3445f849af463e.gif">
-            <img src="https://e0.pxfuel.com/wallpapers/779/924/desktop-wallpaper-colorful-personal-computer-studio-10-active-thumbnail.jpg">
-            <img src="https://cutewallpaper.org/cdn-cgi/mirage/2af0adefb1b7ebf6af3b94bf8b86378693ec8b55d34af727ac0cbb58dfd044f5/1280/23/php-wallpaper-hd/1623026890.jpg">
+          <img
+            src="https://i.pinimg.com/originals/19/9f/d2/199fd29184c6cff24e3445f849af463e.gif"
+          />
+          <img
+            src="https://e0.pxfuel.com/wallpapers/779/924/desktop-wallpaper-colorful-personal-computer-studio-10-active-thumbnail.jpg"
+          />
+          <img
+            src="https://cutewallpaper.org/cdn-cgi/mirage/2af0adefb1b7ebf6af3b94bf8b86378693ec8b55d34af727ac0cbb58dfd044f5/1280/23/php-wallpaper-hd/1623026890.jpg"
+          />
         </div>
+      </div>
     </div>
-</div>
-    
-</body>
+  </body>
 </html>
